@@ -12,6 +12,7 @@
         <element attributes="edge_encryption_enabled=true" choice="1" default="legal" label="Request type" mandatory="true" max_length="40" name="u_request_type" type="string">
             <choice>
                 <element inactive="true" inactive_on_update="true" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Human Resources" sequence="0" value="Human Resources"/>
                 <element inactive_on_update="false" label="Human Ressources" sequence="0" value="hr"/>
                 <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="1" value="Choice 2"/>
                 <element inactive_on_update="false" label="Facility" sequence="1" value="facilities"/>
